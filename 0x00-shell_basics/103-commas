@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a -1 --group-directories-first -r --ignore="*[!0-9A-Za-z]*" | sed "s/^/\//;s/$/,/g" | tr -d "\n"
+ls -la 
