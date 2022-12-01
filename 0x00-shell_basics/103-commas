@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p -la tr '\n' ','
+ls -map|sort -d
